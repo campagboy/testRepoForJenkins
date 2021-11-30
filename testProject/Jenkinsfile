@@ -1,6 +1,6 @@
 // Agent labels
 def zOsAgentLabel = env.ZOS_AGENT_LABEL ? env.ZOS_AGENT_LABEL : 'pthjcl1-pipeline'
-def linuxAgent = 'master'
+def linuxAgent = 'main'
 
 // GIT repositories
 def srcGitRepo =  null
@@ -26,8 +26,6 @@ def verbose = false
 def hasBuildFiles = true
 def idzCodeReviewFlag = false
 def buildVerbose = ''
-
-@NonCPS
 
 pipeline {
 
