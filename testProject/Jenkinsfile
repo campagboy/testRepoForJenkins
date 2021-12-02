@@ -5,10 +5,6 @@ def linuxAgent = 'PTHJCL1-Node'
 // GIT repositories
 def srcGitRepo =  null
 def srcGitBranch = null
-def zAppBuildGitRepo = 'https://github.com/IBM/dbb-zappbuild.git'
-def zAppBuildGitBranch = 'main'
-def dbbGitRepo = 'https://github.com/IBM/dbb.git'
-def dbbGitBranch = 'main'
 
 // DBB
 def dbbHome=null
