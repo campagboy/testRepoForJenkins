@@ -1,5 +1,7 @@
 @groovy.transform.BaseScript com.ibm.dbb.groovy.ScriptLoader baseScript
 import com.ibm.dbb.repository.*
+import com.ibm.dbb.dependency.*
+import com.ibm.dbb.build.*
 
 
 // define script properties
@@ -130,7 +132,7 @@ def createCompileCommand(String buildFile, LogicalFile logicalFile, String membe
 		compile.dd(new DDStatement().dsn(syslibDataset).options("shr"))
 	}
 		
-	// add a tasklib to the compile command 
+	// add a tasklib to the compile command
 	compile.dd(new DDStatement().name("TASKLIB").dsn(props.SFANLMD).options("shr"))
 
 	if (props.SFELLOAD)
