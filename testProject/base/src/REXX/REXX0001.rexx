@@ -1,1 +1,4 @@
-a\@ыеГГ@\aa\lиуцсДде@хеадеы\a@@Б│╗@}х┘⌠⌠√@Ф√≥⌠└}
+/* REXX  */
+/*%INCLUDE HEADER*/
+
+  Say 'Hello World'
